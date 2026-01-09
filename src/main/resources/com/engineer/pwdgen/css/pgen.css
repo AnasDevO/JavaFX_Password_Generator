@@ -1,0 +1,66 @@
+.root{
+    heading-color: #aeafe8;
+    second-heading-color: #7e4edf;
+    -fx-background-color: #010b15;
+
+}
+.heading-label-0{
+    -fx-text-fill: heading-color;
+    -fx-font-size: xx-large;
+    -fx-font-weight: 700;
+    -fx-font-family: "Segoe UI"
+}
+.heading-label-1{
+    -fx-text-fill: second-heading-color;
+    -fx-font-size: medium;
+    -fx-font-weight: 500;
+    -fx-font-family: "Segoe UI"
+}
+.gen-button{
+    -fx-background-color: #3d3399;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-border-color: #3d3399;
+}
+.mfx-button{
+
+}
+.gen-button:pressed{
+    -fx-background-color: #7366e4;
+
+    -fx-border-color: #dab5ff;
+}
+.check:selected> .box{
+    -fx-background-color: #1b6dca;
+
+}
+.check > .box{
+    -fx-border-radius: 30px;
+}
+.check:selected .mark{
+    -fx-background-color: white;
+}
+.heading-label-3, .heading-label-4,.heading-label-2,.passLength, .passLabel{
+    -fx-text-fill: white;
+}
+
+.slider{
+
+    >.track {
+        -fx-background-color: red, darkred;
+        -fx-background-radius: 4px;
+
+    }
+    >.axis {
+        -fx-tick-label-fill: white;
+        -fx-tick-length: 4px;
+        -fx-minor-tick-length: 2px;
+
+    }
+    >.thumb {
+        -fx-background-color: #272727, lightseagreen;
+        -fx-background-insets: 0, 0.5px;
+        -fx-background-radius: 8px;
+
+    }
+}
