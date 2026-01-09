@@ -1,3 +1,5 @@
+
+
 plugins {
     java
     application
@@ -12,6 +14,20 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
 }
+tasks.jar {
+    manifest {
+        attributes(
+            "Main-Class" to "com.engineer.pwdgen.Main"
+        )
+    }
+}
+jlink {
+    launcher {
+        name = "Engineer's Password Generator" // The desired name for the executable launcher script
+    }
+}
+
+
 
 val junitVersion = "5.10.2"
 
@@ -20,6 +36,8 @@ java {
         languageVersion = JavaLanguageVersion.of(22)
     }
 }
+
+
 
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
