@@ -2,7 +2,7 @@
 
 A Light-Weight, cryptographically secure password generation tool built with **Zulu Java 25** and **JavaFX**. This application provides brute-force estimations based on RTX 4090 Hashrate performance.
 
-![Application Preview](screenshot.png)
+![Application Preview](https://github.com/AnasDevO/JavaFX_Password_Generator/blob/master/ScreenShot.PNG?raw=true)
 
 ## Key Features
 
